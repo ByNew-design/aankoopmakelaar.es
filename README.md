@@ -1,2 +1,0 @@
-# aankoopmakelaar.es
-site aankoopmakelaar
