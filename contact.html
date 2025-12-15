@@ -96,8 +96,8 @@
                 </div>
                 <div class="contact-text">
                   <h4>Locatie</h4>
-                  <p>Primair actief in Costa Azahar (Baix Maestrat & Montsià)</p>
-                  <p>Werkgebied: Costa Azahar (Baix Maestrat & Montsià)</p>
+                  <p>Actief in heel Spanje</p>
+                  <p>Hoofdkantoor: Costa Blanca</p>
                   <p>Onze diensten zijn beschikbaar in alle populaire regio's</p>
                 </div>
               </div>
@@ -133,15 +133,71 @@
           
           <div class="contact-form">
             <h3>Stuur ons een bericht</h3>
-            <p class="form-subtitle">Vul het onderstaande formulier in en wij nemen zo snel mogelijk contact met u op. U kunt ook direct WhatsAppen of bellen.</p>
+            <p class="form-subtitle">Vul het onderstaande formulier in en wij nemen zo snel mogelijk contact met u op.</p>
             
-            <div class="hubspot-embed">
-              <script src="https://js-eu1.hsforms.net/forms/embed/147425400.js" defer></script>
-              <div class="hs-form-frame"
-                   data-region="eu1"
-                   data-form-id="eae8442f-fb51-49d0-ba40-d88147800850"
-                   data-portal-id="147425400"></div>
-            </div>
+            <form id="contactForm">
+              <div class="form-group">
+                <label for="name">Naam *</label>
+                <input type="text" id="name" name="name" required placeholder="Uw volledige naam">
+              </div>
+              
+              <div class="form-group">
+                <label for="email">E-mailadres *</label>
+                <input type="email" id="email" name="email" required placeholder="uw@email.nl">
+              </div>
+              
+              <div class="form-group">
+                <label for="phone">Telefoonnummer</label>
+                <input type="tel" id="phone" name="phone" placeholder="+31 6 12345678">
+              </div>
+              
+              <div class="form-group">
+                <label for="subject">Onderwerp</label>
+                <select id="subject" name="subject">
+                  <option value="">Selecteer een onderwerp</option>
+                  <option value="vraag">Vraag over diensten</option>
+                  <option value="offerte">Offerte aanvraag</option>
+                  <option value="afspraak">Afspraak maken</option>
+                  <option value="bezichtiging">Bezichtiging regelen</option>
+                  <option value="ander">Anders</option>
+                </select>
+              </div>
+              
+              <div class="form-group">
+                <label for="region">Gewenste regio in Spanje</label>
+                <select id="region" name="region">
+                  <option value="">Selecteer een regio</option>
+                  <option value="costa-blanca">Costa Blanca</option>
+                  <option value="costa-del-sol">Costa del Sol</option>
+                  <option value="costa-brava">Costa Brava</option>
+                  <option value="balearen">Balearen</option>
+                  <option value="canarische-eilanden">Canarische Eilanden</option>
+                  <option value="anders">Andere regio</option>
+                </select>
+              </div>
+              
+              <div class="form-group">
+                <label for="budget">Budget (optioneel)</label>
+                <input type="text" id="budget" name="budget" placeholder="Bijvoorbeeld: € 250.000 - € 350.000">
+              </div>
+              
+              <div class="form-group">
+                <label for="message">Bericht *</label>
+                <textarea id="message" name="message" rows="5" required placeholder="Vertel ons over uw wensen en vragen..."></textarea>
+              </div>
+              
+              <div class="form-group checkbox">
+                <input type="checkbox" id="privacy" name="privacy" required>
+                <label for="privacy">Ik ga akkoord met de <a href="privacy.html" class="privacy-link">privacyverklaring</a> *</label>
+              </div>
+              
+              <div class="form-group checkbox">
+                <input type="checkbox" id="newsletter" name="newsletter">
+                <label for="newsletter">Ik ontvang graag tips en aanbiedingen over vastgoed in Spanje</label>
+              </div>
+              
+              <button type="submit" class="btn-primary">Verzenden <i class="fas fa-paper-plane"></i></button>
+            </form>
           </div>
         </div>
       </div>
@@ -151,49 +207,47 @@
     <section class="section-services" style="background-color: #f8f9fa;">
       <div class="container">
         <h2 class="section-title">Waar zijn wij actief?</h2>
-        <p class="section-subtitle">Onze focus ligt op Costa Azahar (Baix Maestrat & Montsià). Andere regio’s zijn bespreekbaar op aanvraag.</p>
-        
+        <p class="section-subtitle">Onze diensten zijn beschikbaar in heel Spanje</p>
         
         <div class="regions-grid">
           <div class="region-card">
             <div class="region-icon">
               <i class="fas fa-sun"></i>
             </div>
-            <h3>Costa Azahar</h3>
-            <p>Peñíscola, Benicarló, Vinaròs, Alcossebre</p>
+            <h3>Costa Blanca</h3>
+            <p>Alicante, Benidorm, Torrevieja, Calpe</p>
           </div>
-
+          
+          <div class="region-card">
+            <div class="region-icon">
+              <i class="fas fa-umbrella-beach"></i>
+            </div>
+            <h3>Costa del Sol</h3>
+            <p>Málaga, Marbella, Fuengirola, Estepona</p>
+          </div>
+          
           <div class="region-card">
             <div class="region-icon">
               <i class="fas fa-mountain"></i>
             </div>
-            <h3>Baix Maestrat</h3>
-            <p>Vinaròs, Sant Jordi, Traiguera, Morella (omgeving)</p>
+            <h3>Costa Brava</h3>
+            <p>Girona, Lloret de Mar, Tossa de Mar</p>
           </div>
-
+          
           <div class="region-card">
             <div class="region-icon">
-              <i class="fas fa-water"></i>
+              <i class="fas fa-island-tropical"></i>
             </div>
-            <h3>Montsià</h3>
-            <p>Ulldecona, Amposta, La Ràpita, Alcanar</p>
-          </div>
-
-          <div class="region-card">
-            <div class="region-icon">
-              <i class="fas fa-map-marker-alt"></i>
-            </div>
-            <h3>Op aanvraag</h3>
-            <p>Andere regio’s in Spanje in overleg</p>
+            <h3>Balearen</h3>
+            <p>Mallorca, Ibiza, Menorca, Formentera</p>
           </div>
         </div>
-
+        
         <div class="map-placeholder">
-
           <div class="map-content">
             <i class="fas fa-map-marked-alt"></i>
-            <h3>Werkgebied</h3>
-            <p>Onze primaire focus ligt op Costa Azahar (Baix Maestrat & Montsià). Voor andere regio’s bespreken we graag de mogelijkheden.</p>
+            <h3>Actief in heel Spanje</h3>
+            <p>Onze diensten zijn niet gebonden aan één specifieke locatie. Wij helpen u in alle regio's van Spanje.</p>
           </div>
         </div>
       </div>
@@ -252,7 +306,7 @@
           <div class="footer-column">
             <h4>Contactgegevens</h4>
             <ul class="footer-contact">
-              <li><i class="fas fa-map-marker-alt"></i> Primair actief in Costa Azahar (Baix Maestrat & Montsià)</li>
+              <li><i class="fas fa-map-marker-alt"></i> Actief in heel Spanje</li>
               <li><i class="fas fa-phone"></i> +34 603 029 378</li>
               <li><i class="fas fa-envelope"></i> info@aankoopmakelaarspanje.es</li>
               <li><i class="fas fa-clock"></i> Ma-Vr: 9:00-18:00</li>
