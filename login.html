@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login - Aankoopmakelaar Spanje</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <div class="header-container">
+      <div class="logo-section">
+        <a href="index.html" class="main-logo">
+          <div class="logo-option logo-option-1">
+            <div class="logo-symbol">
+              <span class="logo-icon">ES</span>
+            </div>
+            <div class="logo-text">
+              <span class="logo-line1">aankoopmakelaar</span>
+              <span class="logo-line2">spanje.es</span>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <nav class="main-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="diensten.html">Diensten</a></li>
+          <li><a href="werkwijze.html">Werkwijze</a></li>
+          <li><a href="tarieven.html">Tarieven</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-right">
+        <a href="login.html" class="login-btn active">
+          <i class="fas fa-user"></i> Login
+        </a>
+      </div>
+      
+      <button class="mobile-menu-btn">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <h1>Login</h1>
+        <p>Toegang tot uw persoonlijke account</p>
+      </div>
+    </section>
+
+    <section class="page-content">
+      <div class="container">
+        <div class="login-container">
+          <div class="login-box">
+            <h2>Inloggen</h2>
+            <p class="login-subtitle">Voer uw inloggegevens in om toegang te krijgen tot uw account.</p>
+            
+            <form class="login-form" id="loginForm">
+              <div class="form-group">
+                <label for="login-email">E-mailadres *</label>
+                <input type="email" id="login-email" name="email" required placeholder="uw@email.nl">
+              </div>
+              
+              <div class="form-group">
+                <label for="login-password">Wachtwoord *</label>
+                <input type="password" id="login-password" name="password" required placeholder="Uw wachtwoord">
+                <div class="password-toggle">
+                  <i class="fas fa-eye" id="togglePassword"></i>
+                </div>
+              </div>
+              
+              <div class="login-options">
+                <div class="checkbox">
+                  <input type="checkbox" id="remember" name="remember">
+                  <label for="remember">Ingelogd blijven</label>
+                </div>
+                <a href="#" class="forgot-password">Wachtwoord vergeten?</a>
+              </div>
+              
+              <button type="submit" class="login-button">Inloggen</button>
+              
+              <div class="login-divider">
+                <span>Of</span>
+              </div>
+              
+              <div class="social-login">
+                <button type="button" class="social-btn google-btn">
+                  <i class="fab fa-google"></i> Inloggen met Google
+                </button>
+                <button type="button" class="social-btn microsoft-btn">
+                  <i class="fab fa-microsoft"></i> Inloggen met Microsoft
+                </button>
+              </div>
+            </form>
+            
+            <div class="register-link">
+              <p>Nog geen account? <a href="#" id="registerLink">Registreer hier</a></p>
+            </div>
+          </div>
+          
+          <div class="login-info">
+            <div class="info-card">
+              <h3>Waarom een account?</h3>
+              <ul>
+                <li><i class="fas fa-check"></i> Volg uw zoektocht live</li>
+                <li><i class="fas fa-check"></i> Bewaar favoriete woningen</li>
+                <li><i class="fas fa-check"></i> Ontvang persoonlijke aanbiedingen</li>
+                <li><i class="fas fa-check"></i> Download documenten</li>
+                <li><i class="fas fa-check"></i> Communiceer veilig met uw makelaar</li>
+              </ul>
+            </div>
+            
+            <div class="info-card">
+              <h3>Problemen met inloggen?</h3>
+              <p>Neem contact op met onze support:</p>
+              <p><i class="fas fa-phone"></i> +34 603 029 378</p>
+              <p><i class="fas fa-envelope"></i> support@aankoopmakelaarspanje.es</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-main">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-column">
+            <div class="footer-logo">
+              <div class="logo-option logo-option-1">
+                <div class="logo-symbol">
+                  <span class="logo-icon">ES</span>
+                </div>
+                <div class="logo-text">
+                  <span class="logo-line1">aankoopmakelaar</span>
+                  <span class="logo-line2">spanje.es</span>
+                </div>
+              </div>
+            </div>
+            <p class="footer-description">
+              Uw betrouwbare Nederlandse aankoopmakelaar voor de Spaanse vastgoedmarkt.
+            </p>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+          
+          <div class="footer-column">
+            <h4>Snelle links</h4>
+            <ul class="footer-links">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="diensten.html">Diensten</a></li>
+              <li><a href="werkwijze.html">Werkwijze</a></li>
+              <li><a href="tarieven.html">Tarieven</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          
+          <div class="footer-column">
+            <h4>Informatie</h4>
+            <ul class="footer-links">
+              <li><a href="voorwaarden.html">Algemene voorwaarden</a></li>
+              <li><a href="privacy.html">Privacybeleid</a></li>
+              <li><a href="cookies.html">Cookiebeleid</a></li>
+              <li><a href="disclaimer.html">Disclaimer</a></li>
+              <li><a href="faq.html">FAQ</a></li>
+            </ul>
+          </div>
+          
+          <div class="footer-column">
+            <h4>Contactgegevens</h4>
+            <ul class="footer-contact">
+              <li><i class="fas fa-map-marker-alt"></i> Actief in heel Spanje</li>
+              <li><i class="fas fa-phone"></i> +34 603 029 378</li>
+              <li><i class="fas fa-envelope"></i> info@aankoopmakelaarspanje.es</li>
+              <li><i class="fas fa-clock"></i> Ma-Vr: 9:00-18:00</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="footer-bottom-content">
+          <p>&copy; 2025 aankoopmakelaarspanje.es. Alle rechten voorbehouden.</p>
+          <div class="footer-legal">
+            <a href="voorwaarden.html">Algemene voorwaarden</a> | 
+            <a href="privacy.html">Privacybeleid</a> | 
+            <a href="contact.html">Contact</a> |
+            <a href="#">Sitemap</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WhatsApp Float Button -->
+  <a href="https://wa.me/34603029378" class="whatsapp-float" target="_blank" aria-label="Contact via WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <script src="script.js"></script>
+  <script>
+    // Login specific JavaScript
+    document.addEventListener('DOMContentLoaded', function() {
+      // Toggle password visibility
+      const togglePassword = document.getElementById('togglePassword');
+      const passwordInput = document.getElementById('login-password');
+      
+      if (togglePassword && passwordInput) {
+        togglePassword.addEventListener('click', function() {
+          const type = passwordInput.getAttribute('type') === 'password' ? 'text' : 'password';
+          passwordInput.setAttribute('type', type);
+          this.classList.toggle('fa-eye');
+          this.classList.toggle('fa-eye-slash');
+        });
+      }
+      
+      // Login form submission
+      const loginForm = document.getElementById('loginForm');
+      if (loginForm) {
+        loginForm.addEventListener('submit', function(e) {
+          e.preventDefault();
+          // Simulate login process
+          const email = document.getElementById('login-email').value;
+          const password = document.getElementById('login-password').value;
+          
+          if (email && password) {
+            // In a real application, this would be an API call
+            alert('Login functionaliteit wordt binnenkort geïmplementeerd. Voor nu kunt u contact opnemen via telefoon of WhatsApp.');
+            this.reset();
+          } else {
+            alert('Vul alstublieft beide velden in.');
+          }
+        });
+      }
+      
+      // Social login buttons
+      document.querySelectorAll('.social-btn').forEach(button => {
+        button.addEventListener('click', function() {
+          alert('Social login wordt binnenkort geïmplementeerd.');
+        });
+      });
+      
+      // Register link
+      const registerLink = document.getElementById('registerLink');
+      if (registerLink) {
+        registerLink.addEventListener('click', function(e) {
+          e.preventDefault();
+          alert('Registratie functionaliteit wordt binnenkort toegevoegd. Neem voor nu contact met ons op.');
+        });
+      }
+      
+      // Forgot password
+      const forgotPassword = document.querySelector('.forgot-password');
+      if (forgotPassword) {
+        forgotPassword.addEventListener('click', function(e) {
+          e.preventDefault();
+          const email = prompt('Voer uw e-mailadres in om uw wachtwoord te resetten:');
+          if (email) {
+            alert('Een reset link is verstuurd naar ' + email + ' (demo). In de productieversie wordt dit daadwerkelijk verzonden.');
+          }
+        });
+      }
+    });
+  </script>
+</body>
+</html>
